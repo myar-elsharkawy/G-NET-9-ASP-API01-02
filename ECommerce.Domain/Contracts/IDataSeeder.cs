@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Domain.Contracts
 {
-    internal interface IDataSeeder
+    public interface IDataSeeder
     {
+        Task SeedDataAsync(CancellationToken ct);
     }
 }
