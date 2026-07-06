@@ -9,7 +9,7 @@ namespace ECommerce.Domain.Entities.Products
     public class Product : BaseEntity<int>
     {
         public string Name { get; set; }= default!;
-        public string Desciption { get; set; } = default!;
+        public string Description { get; set; } = default!;
         public string PictureUrl { get; set; } = default!;
         public decimal Price { get; set; }
 
